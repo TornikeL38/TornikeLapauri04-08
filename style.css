@@ -13,3 +13,508 @@ body{
 .background{
     height: 50px;
 }
+.santa{
+    width: 50px;
+    position: absolute;
+    animation-name: santaAnim;
+    animation-delay:  0s;;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+@keyframes santaAnim {
+    0%{
+        right: 10px;
+    }
+    100%{
+        right: 1900px;
+        transform:scale(0.5);
+    }
+}
+.snow{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow img{
+    width: 30px;
+}
+@keyframes snowAnim{
+    0%{
+        left: 10px;
+        top: 1px;
+    }
+    100%{
+        left: 10px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+
+    }
+}
+.snow2{
+    display: inline-block;
+    position: absolute;
+    animation-name: SnowAnim2;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes SnowAnim2{
+    0%{
+        left: 70px;
+        top: 1px;
+    }
+    100%{
+        left: 70px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow2 img{
+    width: 30px;
+}
+.snow3{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim3;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow3 img{
+    width: 30px;
+}
+@keyframes snowAnim3{
+    0%{
+        left: 140px;
+        top: 1px;
+    }
+    100%{
+        left: 140px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow4{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim4;
+    animation-delay:  0s;
+    animation-duration: 10.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow4 img{
+    width: 30px;
+}
+@keyframes snowAnim4{
+    0%{
+        left: 200px;
+        top: 1px;
+    }
+    100%{
+        left: 200px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow5{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim5;
+    animation-delay:  0s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow5 img{
+    width: 30px;
+}
+@keyframes snowAnim5{
+    0%{
+        left: 250px;
+        top: 1px;
+    }
+    100%{
+        left: 250px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow6{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim6;
+    animation-delay:  0s;
+    animation-duration: 9.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow6 img{
+    width: 30px;
+}
+@keyframes snowAnim6{
+    0%{
+        left: 310px;
+        top: 1px;
+    }
+    100%{
+        left: 310px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow7{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim7;
+    animation-delay:  0s;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow7 img{
+    width: 30px;
+}
+@keyframes snowAnim7{
+    0%{
+        left: 380px;
+        top: 1px;
+    }
+    100%{
+        left: 380px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow8{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim8;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow8 img{
+    width: 30px;
+}
+@keyframes snowAnim8{
+    0%{
+        left: 455px;
+        top: 1px;
+    }
+    100%{
+        left: 455px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow9{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim9;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow9 img{
+    width: 30px;
+}
+@keyframes snowAnim9{
+    0%{
+        left: 550px;
+        top: 1px;
+    }
+    100%{
+        left: 550px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow10{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim10;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow10 img{
+    width: 30px;
+}
+@keyframes snowAnim10{
+    0%{
+        left: 610px;
+        top: 1px;
+    }
+    100%{
+        left: 610px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow11{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim11;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow11 img{
+    width: 30px;
+}
+@keyframes snowAnim11{
+    0%{
+        left: 700px;
+        top: 1px;
+    }
+    100%{
+        left: 700px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow12{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim12;
+    animation-delay:  0s;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow12 img{
+    width: 30px;
+}
+@keyframes snowAnim12{
+    0%{
+        left: 800px;
+        top: 1px;
+    }
+    100%{
+        left: 800px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow13{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim13;
+    animation-delay:  0s;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow13 img{
+    width: 30px;
+}
+@keyframes snowAnim13{
+    0%{
+        left: 780px;
+        top: 1px;
+    }
+    100%{
+        left: 780px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow14{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim14;
+    animation-delay:  0s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow14 img{
+    width: 30px;
+}
+@keyframes snowAnim14{
+    0%{
+        left: 850px;
+        top: 1px;
+    }
+    100%{
+        left: 850px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow15{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim15;
+    animation-delay:  0s;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow15 img{
+    width: 30px;
+}
+@keyframes snowAnim15{
+    0%{
+        left: 910px;
+        top: 1px;
+    }
+    100%{
+        left: 910px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow16{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim16;
+    animation-delay:  0s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow16 img{
+    width: 30px;
+}
+@keyframes snowAnim16{
+    0%{
+        left: 1000px;
+        top: 1px;
+    }
+    100%{
+        left: 1000px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow17{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim17;
+    animation-delay:  0s;
+    animation-duration: 11.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow17 img{
+    width: 30px;
+}
+@keyframes snowAnim17{
+    0%{
+        left: 1100px;
+        top: 1px;
+    }
+    100%{
+        left: 1100px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow18{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim18;
+    animation-delay:  0s;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow18 img{
+    width: 30px;
+}
+@keyframes snowAnim18{
+    0%{
+        left: 1190px;
+        top: 1px;
+    }
+    100%{
+        left: 1190px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow19{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim19;
+    animation-delay:  0s;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow19 img{
+    width: 30px;
+}
+@keyframes snowAnim19{
+    0%{
+        left: 1250px;
+        top: 1px;
+    }
+    100%{
+        left: 1250px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow20{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim20;
+    animation-delay:  0s;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow20 img{
+    width: 30px;
+}
+@keyframes snowAnim20{
+    0%{
+        left: 71350px;
+        top: 1px;
+    }
+    100%{
+        left: 1350px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+.snow21{
+    display: inline-block;
+    position: absolute;
+    animation-name: snowAnim21;
+    animation-delay:  0s;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.snow21 img{
+    width: 30px;
+}
+@keyframes snowAnim21{
+    0%{
+        left: 1410px;
+        top: 1px;
+    }
+    100%{
+        left: 1410px;
+        top: 680px;
+        transform: scale(2) rotate(360deg);
+    }
+}
+
+
